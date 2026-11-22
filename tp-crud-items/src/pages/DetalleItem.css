@@ -1,0 +1,124 @@
+    .detalle-item {
+    background-color: #f2e3c8;
+    border: 1px solid #e2cca6;
+    border-radius: 22px;
+    padding: 24px;
+    box-shadow: 0 8px 24px rgba(109, 81, 42, 0.08);
+    }
+
+    .detalle-item__cabecera {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
+    }
+
+    .detalle-item__titulo {
+    margin: 0;
+    font-size: 1.35rem;
+    color: #6d512a;
+    }
+
+    .detalle-item__volver {
+    color: #6d512a;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 0.9rem;
+    }
+
+    .detalle-item__ficha p {
+    margin: 0 0 10px;
+    color: #4a3b32;
+    }
+
+    .detalle-item__formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    }
+
+    .detalle-item__fila {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    }
+
+    .detalle-item__campo {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    }
+
+    .detalle-item__campo label {
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #4a3b32;
+    }
+
+    .detalle-item__campo input,
+    .detalle-item__campo textarea {
+    background-color: #ffffff;
+    border: 1.5px solid #d4b279;
+    border-radius: 14px;
+    padding: 10px 14px;
+    font-size: 0.95rem;
+    color: #332211;
+    font-family: inherit;
+    }
+
+    .detalle-item__checkbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    color: #4a3b32;
+    cursor: pointer;
+    }
+
+    .detalle-item__botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-top: 8px;
+    }
+
+    .detalle-item__primario {
+    background-color: #c68a36;
+    color: #fbf7f0;
+    border: none;
+    border-radius: 14px;
+    padding: 11px 18px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    }
+
+    .detalle-item__secundario {
+    background-color: #fbf7f0;
+    color: #6d512a;
+    border: 1px solid #d4b279;
+    border-radius: 14px;
+    padding: 11px 18px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    }
+
+    .detalle-item__estado {
+    background-color: #f2e3c8;
+    border-radius: 18px;
+    padding: 20px;
+    color: #6d512a;
+    font-weight: 600;
+    }
+
+    .detalle-item__error {
+    background-color: #fee2e2;
+    color: #991b1b;
+    border: 1px solid #fca5a5;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    }
