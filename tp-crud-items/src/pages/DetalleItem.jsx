@@ -1,7 +1,7 @@
     import { useEffect, useState } from "react";
     import { Link, useNavigate, useParams } from "react-router-dom";
     import { editarItem, obtenerItem } from "../services/api";
-    import { alertaError, alertaExito } from "../utils/alertas";
+    import { alertaError, alertaExito } from "../services/alertas";
     import "./DetalleItem.css";
 
     function DetalleItem() {

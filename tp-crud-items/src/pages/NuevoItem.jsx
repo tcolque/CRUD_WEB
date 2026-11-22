@@ -1,7 +1,7 @@
     import { useRef, useState } from "react";
     import { Link, useNavigate } from "react-router-dom";
     import { crearItem } from "../services/api";
-    import { alertaError, alertaExito } from "../utils/alertas";
+    import { alertaError, alertaExito } from "../services/alertas";
     import "./NuevoItem.css";
 
     function NuevoItem() {

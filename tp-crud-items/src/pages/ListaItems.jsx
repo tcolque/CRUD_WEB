@@ -1,6 +1,6 @@
     import { useEffect, useState } from "react";
     import { borrarItem, listarItems } from "../services/api";
-    import { alertaError, alertaExito, confirmarBorrado } from "../utils/alertas";
+    import { alertaError, alertaExito, confirmarBorrado } from "../services/alertas";
     import TarjetaItem from "../components/TarjetaItem";
     import "./ListaItems.css";
 
